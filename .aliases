@@ -1,0 +1,30 @@
+#Folders
+alias dropbox='cd ~/dropbox'
+alias h='cd ~'
+alias kit='cd ~/Code/2_Github/Starterkit'
+
+#Docker
+#alias up='cd ~/devilbox && docker-compose up'
+
+#Commands
+alias c='clear'
+alias lower='for i in *; do mv "$i" "$(echo $i|tr A-Z a-z)"; done'
+
+# Composer & Apps
+alias composer='php /usr/local/bin/composer.phar'
+alias gw='gulp watch'
+
+# GIT
+alias g ='git'
+
+# Open file with Sublime Text
+alias st = 'open -a "Sublime Text"'
+
+# Typos
+alias st.= 'st .'
+alias code. = 'code .'
+
+# Jump back n directories at a time
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
